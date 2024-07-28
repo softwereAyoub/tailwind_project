@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+nav button{
+    background-color: #101828;
+}
+nav ul li:first-child{
+    color: #006D77;
+}
+h1{
+    line-height: 60px;
+}
+.div2 img:first-child{
+    right: 14%;
+}
+.img{
+    right:38%;
+}
+
+footer hr{
+    background-color: #D6D8DD;;
+}
+.liens h3{
+    color: #101828;
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+.fin{
+    display: flex;
+    justify-content: space-between;
+}
+.liens span,.lien a{
+    color: #969696;
+}
+.img2{
+    box-shadow: 1px 0px 15px 1px rgb(244, 241, 241)    ;
+}
+.produits .divone,.produits .divtwo,.produits .divthree{
+    border-radius: 6px;
+border: 1px solid #E4E7EC;
+}
+.produit div #bord{
+    border-radius: 6px;
+    border: 1px solid #E4E7EC;
+}
+.prix span{
+    color: #006D77;
+}
+.prix a{
+    border-radius: 6px;
+background: #BEE1E6;
+}
+.categorie .div1 .flex{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.categorie .div1 {
+    border-radius: 6px;
+border: 1px solid #D1DAE8;
+}
+.work div h3{
+margin-bottom: 25px;
+}
+.subscribe{
+    background-color: #006D77;
+}
+.subscribe input{
+    background-image:url('Vector.svg'),url('Ellipse\ 11.svg');
+    background-repeat: no-repeat,no-repeat;
+   background-position:315px,285px;
+
+}
+.subscribe h2{
+    max-width: 501px;
+}
+.subscribe p{
+    max-width: 485px;
+    font-family: Merriweather;
+
+}
+
+.work div p{
+    color: #667085;
+
+text-align: center;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+.categorie .div2 #item{
+    border-radius: 6px;
+border: 1px solid #D1DAE8;
+}
+.categorie .div1 .flex span{
+color: #667085;;
+}
+.categorie .div1 .flex span:last-child{
+color: #006D77;
+background-color: #E4E7EC;
+padding: 4px 8px;
+border-radius: 50%;
+}
+
+.categorie .div1 .flex:last-child span:last-child{
+    padding: 5px 12px;
+}
+#bord{
+    transition: transform 1s;
+}
+#pd #bord:hover {
+   transform: scale(1.25);
+   z-index: 9999; 
+   background-color: white; 
+}
+header button{
+    transition:background-color 0.5s ;
+}
+header li{
+    transition: color 0.5s;
+}
+header li:hover{
+color: blue;
+}
+header button:hover{
+background-color: rgb(182, 176, 176);
+color: black;
+}
